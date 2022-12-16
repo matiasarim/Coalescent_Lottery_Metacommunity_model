@@ -7,11 +7,16 @@ Lines for parallel simulations are included
 #########################################################################################################
 ## This  function run simulations of metacommunity diversity in explicit landscapes. The model can run only a Coescent assembly or be folloed by a lottery simulation. 
 Several proceses scenarios can be evaluated:  
+
 The landascape strucure is represented by a distance imput matrix. This matrix can be estiamted from Ecludian distances between communities or topological distances in a graph thar represent landscape strcuture (previous to run the present code).
+
 An external species pool 
+
 A region of the landscape thath can provides inmmigrants to the metacommunity but is not affected by the dynamic (e.g. river outlet)
+
 The code requiere recognize regions (e.g. impacted or not impacted areas or environments). These regions are only used for estimatig beta diversity in the output and can be fantasy data.
 Differant total abundances in local caommunities (e.g. because of habtiat size or productivity)
+
 Dispersal Kernel are considered here as an exponential decay with distance that can be adapted by a decay parameter. The parameter d50 indicates the distance at which dispersal decay to half it maximum value.
 
 
