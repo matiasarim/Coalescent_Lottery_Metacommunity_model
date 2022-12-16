@@ -1,6 +1,6 @@
 # Coalescent_Lottery_Metacommunity_model
 Function for coalescent and lottery simulation of metacommunity biodiveristy with spatial explicit landscape structure, 
-different local community size, and different local species filters
+different local community size
 
 Lines for parallel simulations are included 
 
